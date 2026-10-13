@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "keybind_override",
+  "version": "${version}",
+  "name": "Keybind Override",
+  "description": "Sets custom default keybinds on startup.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.keybindoverride.KeybindOverrideClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
